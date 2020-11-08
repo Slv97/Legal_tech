@@ -22,6 +22,17 @@ body {
     color: rgba(0, 0, 0, 0.8);
 }
 
+.txt_head {
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.9);
+    padding: 50px 0px;
+}
+
 /*---------------HEADER-----------------*/
 
 .header_top_wrapper {
@@ -173,6 +184,7 @@ body {
     height: 650px;
     background-image: url(../images/back_welcome1.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .welcome > .container,
@@ -224,4 +236,97 @@ body {
 .button_order:hover {
     background: #ddbd66;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.welcome_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block {
+    width: 270px;
+    height: 285px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    background: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: -80px;
+    z-index: 1;
+}
+
+.block .txt_grey {
+    padding: 0 15px;
+}
+
+.block:not(:last-child) {
+    margin-right: 30px;
+}
+
+.circle {
+    height: 120px;
+    width: 120px;
+    border: 3px solid rgba(0, 0, 0, 0.1);;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+.block_protection {
+    background-image: url(../images/protection.png);
+    background-size: 48px 53px;
+}
+
+.block_reputation{
+    background-image: url(../images/reputation.png);
+    background-size: 46px 46px;
+}
+
+.block_result {
+    background-image: url(../images/result.png);
+    background-size: 52px 52px;
+}
+
+.block_confidentiality {
+    background-image: url(../images/confidentiality.png);
+    background-size: 50px 50px;
+}
+
+/*---------------about_us-----------------*/
+
+.about_us{
+    background: #E5E5E5;
+    position: relative;
+    height: 1095px;
+}
+
+.about_us_content {
+    height: 645px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+    top: 300px;
+}
+
+.about_us_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about_us_txt {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 70px;
+    max-width: 540px;
+}
+
+.about_us_img {
+    width: 500px;
+    height: 645px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 32%), url(../images/about_us_img.png);
 }

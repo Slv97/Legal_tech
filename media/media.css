@@ -1,0 +1,17 @@
+@media (max-width: 1400px) {
+
+    .welcome {
+        background-position: right;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .header_top_contacts {
+        flex-wrap: wrap;
+    }
+
+    .welcome {
+        background-position: right;
+    }
+}

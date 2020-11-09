@@ -341,7 +341,8 @@ body {
 
 .activity,
 .reviews,
-.main_direction {
+.main_direction,
+.services {
     background: #e5e5e5;
 }
 
@@ -536,7 +537,8 @@ body {
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
-.team_patner_bottom_txt {
+.team_patner_bottom_txt,
+.services_bottom {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -599,7 +601,7 @@ body {
     position: relative;
 }
 
-.main_direction_top_l:after {
+.main_direction_top_l::after {
     content: ''; 
     position: absolute; 
     right: 0px;
@@ -629,4 +631,95 @@ body {
     height: 180px;
     background-image: url(../images/main_direction_bottom_img.png);
     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*---------------services-----------------*/
+
+.services {
+    padding-top: 100px;
+}
+
+.services_string {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.services_string_one {
+    background-color: #fff;
+    height: 140px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+.services_string_one .activity_txt_head {
+    padding: 25px 30px 0px 100px;
+    text-align: center;
+}
+
+.services_string_one .button_activity {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+ .per40 {
+    width: 480px;
+}
+
+.per60 {
+    width: 690px;
+}
+
+.per40::after,
+.per60::after {
+    content: ''; 
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 140px;
+    width: 70px;
+    background-color: rgba(222, 195, 119, 0.4);
+}
+
+.per50 {
+    width: 585px;
+}
+
+.per50::after {
+    content: ''; 
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 140px;
+    width: 70px;
+    background-color: rgba(222, 195, 119, 0.75);;
+}
+
+.per70 {
+    width: 720px;
+}
+
+.per30 {
+    width: 450px;
+}
+
+.per70::after,
+.per30::after {
+    content: ''; 
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 140px;
+    width: 70px;
+    background-color:#DEC377;
+}
+
+.services_bottom .txt_grey {
+    width: 65%;
+    margin-bottom: 100px;
 }

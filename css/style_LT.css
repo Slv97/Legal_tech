@@ -164,7 +164,8 @@ body {
     font-weight: 500;
 }
 
-.nav a:hover {
+.nav a:hover,
+.button_activity:hover {
     color: #d3af4a;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
 }
@@ -301,7 +302,7 @@ body {
 .about_us{
     background: #E5E5E5;
     position: relative;
-    height: 1095px;
+    height: 995px;
 }
 
 .about_us_content {
@@ -329,4 +330,113 @@ body {
     width: 500px;
     height: 645px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 32%), url(../images/about_us_img.png);
+}
+
+/*---------------activity-----------------*/
+
+.activity {
+    background: #E5E5E5;
+}
+
+.activity_content {
+    height: 480px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activity_block {
+    width: 370px;
+    height: 140px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activity_block_txt {
+    margin: 0 40px;
+    overflow: hidden;
+}
+
+.activity_txt_head {
+    font-family: "Commissioner", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.button_activity {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+    padding: 4px 4px 4px 0;
+}
+
+.activity_circle {
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 15px;
+}
+
+.ico_debt {
+    background-image: url(../images/ico_debt.png);
+    background-size: 40px 39px;    
+}
+
+.ico_business {
+    background-image: url(../images/ico_business.png);
+    background-size: 40px 36px;    
+}
+
+.ico_usd {
+    background-image: url(../images/ico_usd.png);
+    background-size: 40px 40px;    
+}
+
+.ico_support {
+    background-image: url(../images/ico_support.png);
+    background-size: 38px 38px;
+}
+
+.ico_box {
+    background-image: url(../images/ico_box.png);
+    background-size: 40px 40px;
+}
+
+.ico_doc {
+    background-image: url(../images/ico_doc.png);
+    background-size: 38px 32px;
+}
+
+.ico_stamp {
+    background-image: url(../images/ico_stamp.png);
+    background-size: 40px 40px;
+}
+
+.ico_cup {
+    background-image: url(../images/ico_cup.png);
+    background-size: 35px 37px;
+}
+
+.ico_house {
+    background-image: url(../images/ico_house.png);
+    background-size: 38px 38px;
 }

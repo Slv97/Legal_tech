@@ -467,5 +467,93 @@ body {
 .team_patner {
     background: #FFFFFF;
     position: relative;
-    height: 995px;
+    top: 80px;
 }
+
+.team_patner_top {
+}
+
+.team_patner_top_slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.team_patner_top_slider_1 {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    max-width: 570px;
+    margin-bottom: 30px;
+}
+
+.team_patner_top_slider_img {
+    background: url(../images/team_patner_top_slider_img.png);
+    width: 570px;
+    height: 100px;
+}
+
+.team_patner_top_slider_txt,
+.team_patner_top_slider_1 .button_activity {
+    margin: 40px 50px;
+}
+
+.txt_yellow { 
+    font-family: "Commissioner", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    color: #DEC377;
+    margin-bottom: 20px;
+}
+
+.button_team{
+    font-family: "Commissioner", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #DEC377;
+    border: 2px solid #DEC377;
+    border-radius: 2px;
+    padding: 4px 20px;
+    margin-right: 10%;
+}
+
+.button_team:hover {
+    background-color:  #DEC377;
+    color: #ffffff;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.team_patner_bottom_txt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.team_patner_bottom_txt .txt_grey {
+    width: 65%;
+}
+
+.team_patner_bottom_logo {
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    filter: grayscale(100%);
+  }
+  
+  .team_patner_bottom_logo a {
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+  }

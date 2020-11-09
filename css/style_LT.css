@@ -332,9 +332,10 @@ body {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 32%), url(../images/about_us_img.png);
 }
 
-/*---------------activity-----------------*/
+/*---------------activity / reviews-----------------*/
 
-.activity {
+.activity,
+.reviews {
     background: #E5E5E5;
 }
 
@@ -439,4 +440,32 @@ body {
 .ico_house {
     background-image: url(../images/ico_house.png);
     background-size: 38px 38px;
+}
+
+.reviews_txt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* margin-bottom: 60px; */
+}
+
+.reviews_txt .txt_grey {
+    padding-top: 50px;
+    width: 770px;
+    height: 200px;
+}
+
+.reviews_slider {
+    height: 560px;
+    position: relative;
+    top: 80px;
+    z-index: 1;
+}
+
+/*---------------team_patner-----------------*/
+
+.team_patner {
+    background: #FFFFFF;
+    position: relative;
+    height: 995px;
 }

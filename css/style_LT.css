@@ -342,7 +342,8 @@ body {
 .activity,
 .reviews,
 .main_direction,
-.services {
+.services,
+.advantages {
     background: #e5e5e5;
 }
 
@@ -771,8 +772,7 @@ body {
     width: 0px;
     height: 0px;
     border-radius: 50%;
-    border: 5px solid #DEC377;
-    
+    border: 5px solid #DEC377;    
     position: relative;
 }
 
@@ -796,4 +796,42 @@ body {
     color: rgba(0, 0, 0, 0.75);
     padding-left: 30px;
     width: 350px;
+}
+
+/*---------------advantages-----------------*/
+
+.advantages .welcome_block .block {
+    top: 0px;
+    margin-bottom: 40px;
+}
+
+.block_license {
+    background-image: url(../images/license.png);
+    background-size: 55px 60px;
+}
+
+.block_staff {
+    background-image: url(../images/staff.png);
+    background-size: 60px 60px;
+}
+
+.block_communication {
+    background-image: url(../images/communication.png);
+    background-size: 59px 54px;
+}
+
+.block_pencil {
+    background-image: url(../images/pencil.png);
+    background-size: 59px 50px;
+}
+
+.advantages > .container > .main_direction_top_l  {
+    height: 160px;
+    max-width: none;
+}
+
+.advantages > .container > .main_direction_top_l > .txt_grey  {
+    padding-top: 40px;
+    padding-left: 50px;
+    width: 70%;
 }

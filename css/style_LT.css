@@ -723,3 +723,77 @@ body {
     width: 65%;
     margin-bottom: 100px;
 }
+
+/*---------------benefit-----------------*/
+
+.benefit {
+    background-color: #ffffff;
+    display: flex;
+
+}
+
+.benefit_we {
+    display: flex;
+    align-items: stretch;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 60px 0;
+}
+
+.benefit_client{
+    display: flex;
+    align-items: stretch;
+    padding: 60px 0;
+}
+
+.benefit_we .txt_grey,
+.benefit_client .txt_grey{
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+
+.benefit_txt,
+.benefit_markers {
+    width: 50%;
+}
+
+.benefit_markers {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.benefit_markers_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.marker {
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    border: 5px solid #DEC377;
+    
+    position: relative;
+}
+
+.marker::after {
+    content: ''; 
+    position: absolute;
+    top: -21px;
+    left: -21px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #DEC377;
+}
+
+.benefit_markers_txt {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.75);
+    padding-left: 30px;
+    width: 350px;
+}

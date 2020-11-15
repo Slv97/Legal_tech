@@ -468,11 +468,52 @@ body {
     height: 200px;
 }
 
+/*---------------carousel-----------------*/
+
 .reviews_slider {
     height: 560px;
     position: relative;
     top: 80px;
     z-index: 1;
+}
+
+.carousel_wrapper {
+    width: 96%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.carousel_wrapper ul {
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel_wrapper li img {
+}
+
+.carousel_nav {
+    padding: 18px 18px;
+    border: 0;
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    background: #E5E5E5;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel_nav:hover {
+    color: #333;
+}
+
+.carousel_nav-prev {
+    left: -55px;
+}
+
+.carousel_nav-next {
+    right: -55px;
 }
 
 /*---------------team_patner-----------------*/

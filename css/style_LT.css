@@ -52,7 +52,9 @@ body {
 
 .header_top_language .ico,
 .header_top_eye .ico,
-.header_top_contacts .ico {
+.header_top_contacts .ico,
+.social .ico,
+.link .ico {
     display: inline-block;
 }
 
@@ -344,7 +346,8 @@ body {
 .main_direction,
 .services,
 .advantages,
-.contact {
+.contact,
+.footer {
     background: #e5e5e5;
 }
 
@@ -955,4 +958,193 @@ input::placeholder {
 
 .contact_bottom {
     padding-bottom: 100px;
+}
+
+/*---------------footer-----------------*/
+
+.footer {
+
+}
+
+.footer_top_wrapper {
+    display: flex;
+}
+
+.footer_top {
+    padding: 40px 0;
+}
+
+.footer_top_company {
+    width: 500px;
+    margin-right: 30px;
+}
+
+.legal {
+    padding: 70px 0;
+}
+
+.footer_top_inf {
+    display: flex;
+    /*justify-content: space-between;
+    align-items: flex-start; */
+    padding: 30px 0;
+}
+
+.legal .txt_grey a {
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.social {
+    padding-bottom: 50px;
+}
+
+.social a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social .ico_vk {
+    width: 27px;
+    height: 27px;
+    background-image: url(../images/VK.png);
+}
+
+.social .ico_odnoklassniki {
+    width: 27px;
+    height: 27px;
+    background-image: url(../images/odnoklassniki.png);
+}
+
+.social .ico_linkedin {
+    width: 27px;
+    height: 27px;
+    background-image: url(../images/linkedin.png);
+}
+
+.social .ico_instagram {
+    width: 27px;
+    height: 27px;
+    background-image: url(../images/instagram.png);
+}
+
+.social .ico_youtube {
+    width: 27px;
+    height: 27px;
+    background-image: url(../images/youtube.png);
+}
+
+.social .ico_facebook {
+    width: 27px;
+    height: 27px;
+    background-image: url(../images/facebook.png);
+}
+
+.footer_top_company .link {
+    padding: 15px 0;
+}
+
+.link a {
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+}
+
+.link .ico_str {
+    width: 60px;
+    height: 12px;
+    background-image: url(../images/str.png);
+    margin-left: 15px;
+}
+
+.footer_top_inf_head {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer_top_inf_adress_all {
+    display: flex;
+}
+
+.adress_block_other_city {    
+    width: 200px;
+    margin-left: 20px;
+}
+
+.adress_block_minsk {
+    padding-right: 30px;
+}
+
+.adress_block_other {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.adress_head {
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.75);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 200px;
+}
+
+.adress_block_detail_head {
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.75);
+    word-wrap: break-word;
+    padding: 5px 0;
+}
+
+.adress_block_minsk .adress_block_detail {
+    padding: 20px 0;
+}
+
+.footer_top_inf_adress_all .link a {
+    text-transform: lowercase;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.footer_top_inf_time {
+    padding-left: 60px;
+}
+
+.footer_top_inf_time .adress_block_detail_head {
+    padding-top: 20px;
+}
+
+.footer_bot {    
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.1);
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 18px 0;
 }

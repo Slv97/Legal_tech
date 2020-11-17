@@ -1,18 +1,128 @@
+@media (max-width: 2560px) {
+
+    .welcome_carousel_nav-prev {
+        left: 25%;
+    }    
+
+    .welcome_carousel_nav-next {
+        left: 28%;
+    }
+
+    .carousel_wrapper {
+        width: 91%;
+    }
+
+    .team_patner_carousel_wrapper {
+        width: 92%;
+    }
+}
+
+@media (max-width: 1580px) {
+    .team_patner_carousel_wrapper {
+        width: 97%;
+    }
+}
 
 @media (max-width: 1440px) {
 
-    .welcome {
-        background-position: right;
+    .welcome_carousel_nav-prev {
+        left: 10%;
+    }
+    
+    .welcome_carousel_nav-next {
+        left: 15%;
+    }
+
+    .carousel_wrapper {
+        width: 96%;
+    }
+
+    .team_patner_carousel_wrapper {
+        width: 102%;
+    }
+
+    .per40 {
+        width: 465px;
+    }
+    
+    .per60 {
+        width: 675px;
+    }
+
+    .per50 {
+        width: 570px;
+    }
+
+    .per70 {
+        width: 705px;
+    }
+    
+    .per30 {
+        width: 435px;
+    }
+
+    .footer_top_inf_time {
+        padding-left: 6px;
     }
 }
 
 @media (max-width: 1024px) {
 
+    .container {
+        width: 100%;
+    }
+
+    .txt_head {
+        text-align: center;
+    }
+
+    .header_bot_wrapper {
+        justify-content: start;
+    }
+
     .header_top_contacts {
         flex-wrap: wrap;
     }
 
-    .welcome {
-        background-position: right;
+    .welcome_back {        
+        background-position: top;
+    }
+
+    .welcome_block {
+        position: static;
+    }
+
+    .carousel_wrapper {
+        width: 88%;
+    }
+
+    .carousel_wrapper img {
+        width: 980px;
+    }
+
+    .activity_block {
+        width: 320px;
+    }
+
+    .team_patner_carousel_wrapper {
+        width: 57%;
+        margin: 0 auto;
+    }
+
+    .main_direction_top_r,
+    .main_direction_top_l {
+        margin: 30px auto;
+    }
+
+    .services_string_one {
+        margin: 30px auto;
+    }
+
+    .per30,
+    .per40,
+    .per50,
+    .per60,
+    .per70 {
+        width: 620px;
     }
 }

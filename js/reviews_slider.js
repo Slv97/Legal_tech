@@ -54,4 +54,28 @@
 
     });
 
+    window.addEventListener('load', function() {
+
+        new carousel({
+            carousel: 'carousel2',
+            buttons: {
+                next: 'carousel2Next',
+                prev: 'carousel2Prev'
+            }
+        });
+
+    });
+
+    window.addEventListener('load', function() {
+
+        new carousel({
+            carousel: 'carousel3',
+            buttons: {
+                next: 'carousel3Next',
+                prev: 'carousel3Prev'
+            }
+        });
+
+    });
+
 }());

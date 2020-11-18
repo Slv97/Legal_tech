@@ -134,6 +134,7 @@
         align-items: center;
         z-index: 3;
         position: fixed;
+        margin-left: 10px;
     }
 
     .header_bot {
@@ -351,4 +352,187 @@
         display: block;
         margin-left: 30px;
     }
+}
+
+@media (max-width: 376px) {    
+
+    .header_top_wrapper {
+        display: none;
+    }
+
+    .welcome_content h3 {
+        padding: 0 10px;
+        font-size: 26px;
+    }
+
+    .welcome_content .txt_grey {
+        padding: 0 12px;
+    }
+
+    .about_us_content {
+        height: auto;
+    }
+
+    .about_us {
+        height: 855px;
+    }
+
+    .about_us_txt {
+        margin: 0 20px;
+    }
+
+    .activity_block {
+        margin: 8px auto;
+        width: 300px;
+    }
+
+    .welcome_block {
+        flex-wrap: wrap;
+    }
+
+    .block:not(:last-child) {
+        margin-right: 0px;
+    }
+
+    .txt_head {
+        font-size: 20px;
+        padding: 20px 1px;
+    }
+
+    .txt_grey {
+        font-size: 14px;
+    }
+
+    .block {
+        height: 220px;
+    }
+
+    .about_us_content {
+        top: 420px;
+    }
+
+    .welcome_carousel_nav-next {
+        left: 35%;
+    }
+
+    .activity,
+    .reviews {
+        position: relative;
+        top: 310px;
+    }
+
+    .reviews {
+        height: 1060px;
+    }
+
+    .reviews_slider {
+        top: 265px;
+    }
+
+    .carousel_wrapper {
+        width: 68%;
+    }
+
+    .carousel_wrapper img {
+        width: 420px;
+    }
+
+    .carousel_nav {
+        font-size: 32px;
+    }
+
+    .team_patner_top {
+        display: none;
+    }
+
+    .team_patner_bottom_txt {
+        flex-wrap: wrap-reverse;
+    }
+
+    .button_team {
+        margin-left: 30px;
+    }
+
+    .main_direction_top_r,
+    .main_direction_top_l {
+        height: auto;
+    }
+
+    .main_direction_bottom .txt_grey {
+        padding: 0px 30px 0 30px;
+    }
+
+    .main_direction_bottom,
+    .services_bottom {
+        flex-wrap: wrap;
+    }
+
+    .services_bottom .txt_grey {
+        margin-bottom: 30px;
+    }
+
+    .services_string_one {
+        margin: 10px auto;
+    }
+
+    .services_string_one .activity_txt_head {
+        padding: 25px 30px 0px 70px;
+        font-size: 13px;
+    }
+
+    .button_order {
+        margin-bottom: 30px;
+    }
+
+    .per30,
+    .per40,
+    .per50,
+    .per60,
+    .per70 {
+        width: 320px;
+    }
+
+    .advantages .container .welcome_block .block {
+        height: 280px;
+    }
+
+    .advantages > .container > .main_direction_top_l {
+        height: auto;
+    }
+
+    .contact_top_r_number .txt_grey {
+        width: 200px;
+        margin-right: 0;
+    }
+
+    .contact_top_r .txt_grey {
+        margin-right: 30px;
+    }
+
+    .contact_bottom {
+        padding-bottom: 0px;
+    }
+
+    .footer_top_inf {
+        display: block;
+        padding: 0;
+    }
+
+  .footer_top_company {
+    width: auto;
+    margin-right: 0;
+}
+
+  .footer_top_inf_adress_all {
+    display: block;
+  }
+
+  .footer_top_inf_time {
+    padding-top: 26px;
+}
+
+.main_direction_bottom_img {
+    display: none;
+}
+
 }

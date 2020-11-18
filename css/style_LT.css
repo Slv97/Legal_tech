@@ -572,9 +572,6 @@ body {
 
 /*---------------team_patner-----------------*/
 
-.team_patner_carousel {
-} 
-
 .team_patner_carousel_wrapper {
     width: 97%;
     /* margin: 0 auto; */
@@ -619,11 +616,11 @@ body {
     top: 80px;
 }
 
-.team_patner_top_slider {
-    /* display: flex;
+/* .team_patner_top_slider {
+     display: flex;
     justify-content: space-between;
-    align-items: flex-start; */
-}
+    align-items: flex-start; 
+} */
 
 .team_patner_top_slider_1 {
     background: #ffffff;
